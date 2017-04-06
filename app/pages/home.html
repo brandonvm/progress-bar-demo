@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Progress Bar Demo</title>
+    <!--build:css css/styles.min.css-->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- endbuild -->
+  </head>
+
+  <body>
+
+    <!-- Progress Bar Module -->
+    <section class="progress-bar-wrapper">
+    
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary modal-btn" data-toggle="modal" data-target="#progressBarModal">
+        Progress Bar Demo
+      </button>
+    
+      <!-- Modal -->
+      <div class="modal fade" id="progressBarModal" tabindex="-1" role="dialog" aria-labelledby="progressBarModal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Your Progress</h5>
+            </div>
+            <div class="modal-body">
+              <div class="progress-section">
+    
+                <!-- Reacher Row -->
+                <div class="reached-container">
+                  <p class="reached-text">Reached:</p>
+    
+                  <div class="bar-section">
+                    <div class="container-progress-bar">
+                      <div class="progress-bar-gray">
+                        <div class="progress-bar-green"></div>
+                      </div>
+                      <img src="images/progress-icon.png" alt="">
+                      <p class="dollar-counter">$0</p>
+                    </div>
+                    <div class="target">
+                      <p class="target-text">Target $125</p>
+                    </div>
+                  </div>
+                </div>
+    
+    
+                <!-- Information Row -->
+                <div class="information-container">
+                  <img src="images/info-icon.png" alt="Information Icon">
+                  <p>You need $69 more to reach your target</p>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+    <!--build:js js/main.min.js-->
+    <!-- bower:js -->
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <script src="../js/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
