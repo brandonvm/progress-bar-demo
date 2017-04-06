@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body.modal-open .modal {
+  display: -ms-flexbox !important;
+  display: flex !important;
+  height: 100%; }
+
+body.modal-open .modal .modal-dialog {
+  margin: auto; }
+
+.progress-bar-wrapper {
+  margin: 10px;
+  font-family: "Arial"; }
+  .progress-bar-wrapper .modal {
+    font-family: "Arial";
+    font-size: 16px; }
+    .progress-bar-wrapper .modal .modal-header {
+      background-color: #000000;
+      padding: 5px 5px; }
+    .progress-bar-wrapper .modal .modal-body {
+      background-color: #ebebeb;
+      padding: 10px 23px; }
+    .progress-bar-wrapper .modal .modal-title {
+      color: #ffffff;
+      font-size: 20px; }
+    .progress-bar-wrapper .modal .progress-section {
+      background-color: #ffffff;
+      border-radius: 10px;
+      border: 1px solid #000000;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+          flex-direction: column;
+      padding: 10px 50px;
+      width: 100%; }
+    .progress-bar-wrapper .modal .reached-container {
+      display: -ms-flexbox;
+      display: flex; }
+    .progress-bar-wrapper .modal .reached-text {
+      color: #797979;
+      font-weight: bold;
+      font-size: 16px;
+      margin: 21px 10px 0 0; }
+    .progress-bar-wrapper .modal .bar-section {
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: 5px;
+      width: 80%; }
+    .progress-bar-wrapper .modal .container-progress-bar {
+      margin-top: 20px;
+      text-align: center;
+      width: 100%; }
+    .progress-bar-wrapper .modal .progress-bar-gray {
+      background-color: #f7f7f7;
+      height: 15px; }
+    .progress-bar-wrapper .modal .progress-bar-green {
+      background-color: #64b25a;
+      height: 100%; }
+    .progress-bar-wrapper .modal .dollar-counter {
+      color: #000000; }
+    .progress-bar-wrapper .modal .target {
+      -ms-flex-align: center;
+          align-items: center;
+      background-color: #929292;
+      border: 1px solid #000000;
+      display: -ms-flexbox;
+      display: flex;
+      padding: 4px;
+      text-align: center; }
+    .progress-bar-wrapper .modal .target-text {
+      color: #ffffff; }
+    .progress-bar-wrapper .modal .information-container {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: center;
+          align-items: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+      margin-top: 20px; }
+      .progress-bar-wrapper .modal .information-container img {
+        margin-right: 10px; }
+    @media (max-width: 768px) {
+      .progress-bar-wrapper .modal .progress-section {
+        padding: 10px; }
+      .progress-bar-wrapper .modal .reached-container {
+        -ms-flex-direction: column;
+            flex-direction: column;
+        -ms-flex-align: center;
+            align-items: center; }
+      .progress-bar-wrapper .modal .reached-text {
+        margin-bottom: 10px; }
+      .progress-bar-wrapper .modal .bar-section {
+        width: 100%; }
+      .progress-bar-wrapper .modal .information-container {
+        text-align: center; } }

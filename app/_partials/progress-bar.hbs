@@ -1,0 +1,50 @@
+<!-- Progress Bar Module -->
+<section class="progress-bar-wrapper">
+
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary modal-btn" data-toggle="modal" data-target="#progressBarModal">
+    {{settings.btnText}}
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="progressBarModal" tabindex="-1" role="dialog" aria-labelledby="progressBarModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">{{settings.modalTitle}}</h5>
+        </div>
+        <div class="modal-body">
+          <div class="progress-section">
+
+            <!-- Reacher Row -->
+            <div class="reached-container">
+              <p class="reached-text">{{settings.progressTitle}}</p>
+
+              <div class="bar-section">
+                <div class="container-progress-bar">
+                  <div class="progress-bar-gray">
+                    <div class="progress-bar-green"></div>
+                  </div>
+                  <img src="images/progress-icon.png" alt="">
+                  <p class="dollar-counter">$0</p>
+                </div>
+                <div class="target">
+                  <p class="target-text">{{settings.grayBoxText}}</p>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Information Row -->
+            <div class="information-container">
+              <img src="images/info-icon.png" alt="Information Icon">
+              <p>{{settings.infomationText}}</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
